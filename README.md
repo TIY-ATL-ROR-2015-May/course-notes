@@ -1,37 +1,34 @@
 # The Iron Yard - Ruby / Rails
-## 2015 Q1 Atlanta
+## 2015 Q2 Atlanta
 
     Brit Butler
     brit@theironyard.com
-    redline6561 or KingCons on IRC (#ironyard on Freenode)
+    KingCons on IRC (#ironyard on Freenode)
 
 ## Policies
 
-In general, I'll be treating you like autonomous adults, which does mean you
-have plenty of rope to hang yourself. There are a few things we need to make
-explicit though -
+In general, I'll be treating you like autonomous adults, which means
+**you will have plenty of rope to hang yourself**. There are a few things I'll
+make explicit though...
 
 ### Attendance
 
-You should receive a .pdf of the official class schedule on the first day.
 Attendance is expected every day class is in session, but not required. If you
 miss more than **4** days, your job placement may be forfeit.
 
 ### Coursework
 
-Homework will be assigned daily, and usually reviewed the next day. It is your
-responsibility to be sure you're keeping up with the homework and seek out help
-if you're struggling.
+Homework will be assigned daily and semi-regularly discussed in class the next
+day. It is **your** responsibility to be sure you're keeping up with the
+homework and seek out help (from a TA or me) if you're struggling.
 
-The course will culminate in a large capstone project, the topics of which
-should be decided by the end of week 9. The last weeks of class will focus
-mostly on preparing those, with lectures being tailored to the needs of the
-projects. I'd encourage everyone to start thinking about what they'd like to
-accomplish here, as this project will likely be the anchor of your portfolio and
-an important part of your hiring success after graduation.
+The course will culminate in a large final project, likely in a group
+with 1 or 2 Mobile or Frontend developers. The last 3 weeks of class will
+focus on building these projects, and lectures will be largely curtailed.
 
-As much as possible, we'll try to steer earlier lectures towards areas of
-interest, so feel free to suggest other projects earlier.
+It's worth thinking about what you'd like to build now as this project
+will likely be the anchor of your portfolio and an important part of
+your hiring success after graduation.
 
 ### Code of Conduct
 
@@ -55,7 +52,7 @@ In long
     all of us, the technical communities in which we participate.
 
     This code of conduct applies to all communication: this includes in class,
-    HipChat, IRC, email, and other forums such as Skype, Google+ Hangouts, etc.
+    Slack, IRC, email, and other forums such as Skype, Google+ Hangouts, etc.
 
     If you believe someone is violating the code of conduct, we ask that you
     report it by talking to your teacher. If you do not feel comfortable talking

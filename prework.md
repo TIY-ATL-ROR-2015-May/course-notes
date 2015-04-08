@@ -15,6 +15,7 @@ make sure that you've got a good foundation and don't get lost
 right out of the gate.
 
 Importantly, this work will assure me that you
+
 1. can self-direct progress on technical projects
 2. have been exposed to some key technologies we'll be using in class
 3. can communicate difficulties and accomplishments clearly
