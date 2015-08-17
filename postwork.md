@@ -39,16 +39,16 @@ a jumping off point to interesting destinations and adventures. **Do what intere
 
 There are three broad categories I'll group these suggestions into:
 
-R) Keep reinforcing your backend/web-dev chops.
-   * Write more Rails apps, practice unit testing, dip your toes in ops or frontend.
+> R) Keep **reinforcing** your backend/web-dev chops.
+>    * Write more Rails apps, practice unit testing, dip your toes in ops or frontend.
+>
+> F) Work on your **fundamentals**.
+>    * Take the magic out of programming, master scoping and evaluation.
+>
+> P) Gain a greater appreciation for programming **paradigms** and new languages.
+>    * What does it mean to do Object-Oriented or Functional Programming and why do we do it?
 
-F) Work on your fundamentals.
-   * Take the magic out of programming, master scoping and evaluation.
-
-P) Gain a greater appreciation for programming paradigms and new languages.
-   * What does it mean to do Object-Oriented or Functional Programming and why do we do it?
-
-They all share one common point: You'll learn the most by getting your hands dirty. :)
+They all share one commonality: You'll learn the most by getting your hands dirty. :)
 
 ## The Confession
 
@@ -87,12 +87,19 @@ Anyway, enough about that. I'll get off my soap box.
 
 ## Suggestions
 
-There isn't a prescribed order here but I would definitely start with Sandi Metz
-and practicing/reinforcing your unit testing!
+I'm going to group these suggestions by a rough order. Some of them are
+things you should pursue immediately, others will be most helpful to you
+a good deal later.
 
-After that, run towards what excites you.
+In the end, run towards what excites you.
 
-### Book: POODR (R, F, and P!)
+### 1-3 months post-graduation
+
+At this point, you'll primarily be focused on practicing what you've already learned
+and finding paid work. Rather than showing you *entirely* new concepts, this period is
+about reinforcing and building on your knowledge.
+
+#### Book: POODR (R, F, and P!)
 
 First and foremost, *please, please, please* read
 [**Practical Object-Oriented Design in Ruby**][poodr] by the fantastic Sandi Metz.
@@ -106,9 +113,9 @@ of ticking off all my boxes:
 
 [poodr]: http://www.poodr.com
 
-### Book: Objects on Rails (R, P)
+#### Book: Objects on Rails (R, P)
 
-I have less religious fervor about this, but try reading Avdi's [Objects on Rails][oor].
+I lack a religious fervor about this, but try reading Avdi's [Objects on Rails][oor].
 It's insanely cheap ($5) and shows how to apply OO Design to an example Rails app.
 
 It will help you critically think through how you write Rails apps and the book walks
@@ -118,7 +125,37 @@ That said, there's much to learn here.
 
 [oor]: http://objectsonrails.com/
 
-### Book: SICP (Chapters 1 and 2)
+#### Project: Unit Testing Practice
+
+Go back and try to write a tested, terminal version of checkers or the todo list app.
+Write some tests for your final project if you haven't.
+
+Use minitest or follow along with a blog that teaches testing with Rspec. The important
+thing is to get reps and become comfortable with thinking about how to test code.
+
+#### Smorgasborg
+
+There are countless other useful resources that are worth taking a swing at if you're looking
+for ways to practice keeping your skills fresh. Here are a few:
+
+* Complete the [Ruby Koans](http://rubykoans.com/) (ruby, testing)
+* Complete Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/) (rails)
+* The awesome [Justin Herrick][jah] at TIY Austin wrote a [Final Assessment][final].
+  Take it! (and hit me up if you're stuck or unsure about anything)
+* Might be good to sign up for [exercism.io](http://exercism.io) and just do a half
+  dozen problems every day or two.
+
+[jah]: https://twitter.com/jah2488
+[final]: https://github.com/tiy-austin-ror-jan2015/postwork/blob/master/FinalAssessment.pdf
+
+### 3-6 months post-graduation
+
+At this point you should be employed (hopefully happily!) in the tech industry.
+It is totally reasonable at this point to just be keeping up with your job and
+enjoying some well deserved rewards. If you want to broaden your skills,
+here are a few night projects worth looking at.
+
+#### Book: SICP (Chapters 1 and 2)
 
 [SICP][sicp] is the book that got me started on programming. If you'll excuse the
 appeal to authority, just google about it and see how many best programming books
@@ -128,53 +165,56 @@ lists it pops up on! Even in the last week when one of my favorite hackers,
 
 I have to admit I haven't finished SICP. I only read Chapters 1 and 2. SICP is pretty
 challenging but I cannot think of a better source for getting comfortable with the
-fundamentals of computation. It's free online and there are countless resources for it.
-Additionally, I'm happy to give feedback or suggestions if you get stuck.
-You'll also want a version of Scheme to work through the exercises. Try [Racket][racket].
+fundamentals of computation. It's free online and there are countless resources (including
+[MIT's video lectures][sicp-lectures]) for it. Additionally, I'm happy to give feedback or
+suggestions if you get stuck. You'll also want a version of Scheme to work through the exercises.
+Try [Racket][racket].
 
 Just after Chapter 1 a substantial amount of *magic* will disappear from the code around you.
 And in Chapter 2 you'll see how you could add Classes and Objects to a language that doesn't
-have them!
+have them! If you're brave enough to proceed to chapters 3, 4, and 5, you'll get a taste of
+the logic programming paradigm and then even build your own language and compiler!
+
+**NOTE**: Try doing some of the exercises, but don't commit to doing **every single one** like
+I did. Getting exposed to the ideas is the most important thing, do a few exercises each section
+to grasp the material better.
 
 [books-tweet]: https://twitter.com/lukego/status/632450443566780416
 [sicp-review]: http://www.amazon.com/review/R403HR4VL71K8/ref=cm_cr_dp_title?ie=UTF8&ASIN=0262510871&channel=detail-glance&nodeID=283155&store=books
 
 [sicp]: https://mitpress.mit.edu/sicp/
+[sicp-lectures]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
 [racket]: http://racket-lang.org
 
+#### Book: Eloquent Javascript (At least Chapters 1-6)
 
-### Project: Unit Testing Practice
+[Eloquent Javascript][elojs] is written by an incredible hacker, [Marijn Haverbeke][marijn].
+It is, in my opinion, the best current book for learning Javascript from scratch. Better yet,
+it's free. Being knowledgeable about both Ruby and JS is a *huge* buff to your resume. While
+the first 6 chapters teach you the core of Javascript, it's chapters 12 through 9 that teach
+how it interacts with the browser and how to meaningfully use it in web apps. If you have
+the time and energy to read the whole thing, you'd be wise to do so!
 
-Go back and try to write a tested, terminal version of checkers or the todo list app.
-Write some tests for your final project if you haven't.
+[elojs]: http://eloquentjavascript.net/
+[marijn]: http://marijnhaverbeke.nl/
 
-Use minitest or follow along with a blog that teaches testing with Rspec. The important
-thing is to get reps and become comfortable with thinking about how to test code.
-
-### Project: Add some styling/JS to your homepage
+#### Project: Add some styling/JS to your homepage
 
 You should all already be building portfolio sites to help market yourself and aid in
 the job hunt. Spend a little time trying to understand or modify the styling with bootstrap
 or materialize. Or add some interactive elements to the page with Javascript, even if it's
 just a spinning tilde! Just being able to do decent layout and markup is a big win.
 
-### Project: Read Some Good Code
+### 6+ months post-graduation
 
-This is one I feel compelled to include but I don't have particular code to recommend. :-/
+At this juncture, you are hopefully settled comfortably at a job you enjoy,
+learning and challenged but "beyond the terror". At this point, you may want
+something different and weird to play with at night to explore the wide world of code.
 
-I may package up a mailing list that's disappeared from the net called "kragen-hacks".
-It was a great source of small, interesting programs (often in Python) that were well
-explained by the author.
+It's around this point that it would be reasonable to start playing with a new
+programming language or two. Here are a few suggestions...
 
-It would be worthwhile to watch [this RailsConf talk][rgc] and browse [their site][rcg]
-or [awesome-rails][a-rails] for interesting projects to try reading. Try to rope in
-some other students for a reading group!!!
-
-[rgc]: https://www.youtube.com/watch?v=mW_xKGUKLpk
-[rcg]: http://www.readingcodegood.com/
-[a-rails]: https://github.com/ekremkaraca/awesome-rails
-
-### Book: Functional Programming in Scala (P)
+#### Book: Functional Programming in Scala (P)
 
 There is no easy road to a completely new programming paradigm. Everything will
 seem alien at first but that's good. It's the sound of your brain stretching.
@@ -189,7 +229,23 @@ more dedicated Functional language and read Real World Ocaml or Real World Haske
 [fps]: http://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653
 [psr]: http://www.amazon.com/review/R8P9W8Z7QXLWW/ref=cm_cr_dp_title?ie=UTF8&ASIN=1617290653&channel=detail-glance&nodeID=283155&store=books
 
-### Book/Playground: Smalltalk Best Practice Patterns (P)
+#### Project: Read Some Good Code
+
+This is one I feel compelled to include but I don't have particular code to recommend.
+
+I may package up a mailing list that's disappeared from the net called "kragen-hacks".
+It was a great source of small, interesting programs (often in Python) that were well
+explained by the author.
+
+It would be worthwhile to watch [this RailsConf talk][rgc] and browse [their site][rcg]
+or [awesome-rails][a-rails] for interesting projects to try reading. Try to rope in
+some other students for a reading group!!!
+
+[rgc]: https://www.youtube.com/watch?v=mW_xKGUKLpk
+[rcg]: http://www.readingcodegood.com/
+[a-rails]: https://github.com/ekremkaraca/awesome-rails
+
+#### Book/Playground: Smalltalk Best Practice Patterns (P)
 
 If you're interested in a deeper dive after POODR, I would recommend playing with
 [Pharo Smalltalk][pharo] and perhaps reading Kent Beck's famous
