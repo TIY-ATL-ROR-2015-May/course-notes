@@ -174,7 +174,7 @@ some other students for a reading group!!!
 [rcg]: http://www.readingcodegood.com/
 [a-rails]: https://github.com/ekremkaraca/awesome-rails
 
-#### Book: Functional Programming in Scala (P)
+### Book: Functional Programming in Scala (P)
 
 There is no easy road to a completely new programming paradigm. Everything will
 seem alien at first but that's good. It's the sound of your brain stretching.
