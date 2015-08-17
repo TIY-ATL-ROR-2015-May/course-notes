@@ -137,7 +137,7 @@ And in Chapter 2 you'll see how you could add Classes and Objects to a language 
 have them!
 
 [books-tweet]: https://twitter.com/lukego/status/632450443566780416
-[sicp-review]: http://www.amazon.com/review/R403HR4VL71K8/ref=cm_cr_dp_title?ie=UTF8&ASIN=0262510871&channel=detail-glance&nodeID=283155&store=books### Book: Functional Programming in Scala (P)
+[sicp-review]: http://www.amazon.com/review/R403HR4VL71K8/ref=cm_cr_dp_title?ie=UTF8&ASIN=0262510871&channel=detail-glance&nodeID=283155&store=books
 
 [sicp]: https://mitpress.mit.edu/sicp/
 [racket]: http://racket-lang.org
