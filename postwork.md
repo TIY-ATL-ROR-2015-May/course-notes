@@ -1,6 +1,7 @@
 # A Postwork Confessional
 
 > Brit Butler, TIY Atlanta
+>
 > August 16th, 2015
 
 My dearest students, y'all, congratulations.
@@ -125,7 +126,7 @@ That said, there's much to learn here.
 
 [oor]: http://objectsonrails.com/
 
-#### Project: Unit Testing Practice
+#### Project: Unit Testing Practice (R)
 
 Go back and try to write a tested, terminal version of checkers or the todo list app.
 Write some tests for your final project if you haven't.
@@ -133,7 +134,7 @@ Write some tests for your final project if you haven't.
 Use minitest or follow along with a blog that teaches testing with Rspec. The important
 thing is to get reps and become comfortable with thinking about how to test code.
 
-#### Smorgasborg
+#### Smorgasborg (R)
 
 There are countless other useful resources that are worth taking a swing at if you're looking
 for ways to practice keeping your skills fresh. Here are a few:
@@ -155,7 +156,7 @@ It is totally reasonable at this point to just be keeping up with your job and
 enjoying some well deserved rewards. If you want to broaden your skills,
 here are a few night projects worth looking at.
 
-#### Book: SICP (Chapters 1 and 2)
+#### Book: SICP (Chapters 1 and 2) (F)
 
 [SICP][sicp] is the book that got me started on programming. If you'll excuse the
 appeal to authority, just google about it and see how many best programming books
@@ -186,7 +187,7 @@ to grasp the material better.
 [sicp-lectures]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/
 [racket]: http://racket-lang.org
 
-#### Book: Eloquent Javascript (At least Chapters 1-6)
+#### Book: Eloquent Javascript (At least Chapters 1-6) (R+)
 
 [Eloquent Javascript][elojs] is written by an incredible hacker, [Marijn Haverbeke][marijn].
 It is, in my opinion, the best current book for learning Javascript from scratch. Better yet,
@@ -198,7 +199,7 @@ the time and energy to read the whole thing, you'd be wise to do so!
 [elojs]: http://eloquentjavascript.net/
 [marijn]: http://marijnhaverbeke.nl/
 
-#### Project: Add some styling/JS to your homepage
+#### Project: Add some styling/JS to your homepage (R)
 
 You should all already be building portfolio sites to help market yourself and aid in
 the job hunt. Spend a little time trying to understand or modify the styling with bootstrap
@@ -229,7 +230,7 @@ more dedicated Functional language and read Real World Ocaml or Real World Haske
 [fps]: http://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653
 [psr]: http://www.amazon.com/review/R8P9W8Z7QXLWW/ref=cm_cr_dp_title?ie=UTF8&ASIN=1617290653&channel=detail-glance&nodeID=283155&store=books
 
-#### Project: Read Some Good Code
+#### Project: Read Some Good Code (R, P)
 
 This is one I feel compelled to include but I don't have particular code to recommend.
 
@@ -240,6 +241,10 @@ explained by the author.
 It would be worthwhile to watch [this RailsConf talk][rgc] and browse [their site][rcg]
 or [awesome-rails][a-rails] for interesting projects to try reading. Try to rope in
 some other students for a reading group!!!
+
+If you are looking for some interesting non-ruby code bases to read, well ...
+I'm working on building up a good list in my spare time. And I can definitely
+make some lisp recommendations. Hit me up! :)
 
 [rgc]: https://www.youtube.com/watch?v=mW_xKGUKLpk
 [rcg]: http://www.readingcodegood.com/
@@ -255,7 +260,7 @@ which is purported to be one of the best exemplars of OO Design, regardless of w
 [pharo]: http://pharo-project.org
 [sbpp]: http://devblog.avdi.org/2011/09/20/sbpp-1-introduction/
 
-#### Smorgasborg
+#### Smorgasborg (P+)
 
 Here's a scattering of other excellent texts, mostly with a stronger CompSci bent if
 you want to get deeper into specific areas.
